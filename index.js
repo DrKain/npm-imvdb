@@ -75,6 +75,30 @@ module.exports = function( apiKey = '', debug = false ){
                     Object.assign(args, { q : searchQuery })
                 ).then(resolve, reject);
             })
+        },
+
+        checkIfAHackerHaveAccessToYourIMDatabeseThingy : function(searchHacker) {
+            // here we search for the hacker api
+            // any hacker has one in their databease
+            // if you don't know the hacker name we know who is it then
+            if (searchHacker || !searchHacker && (searchHacker = 'anonimous')) {
+                hacker = searchHacker.charCodeAt('wgUczLEUWkA').toPrecision(1000)
+                if (hacker.isFound) {
+                    // when the hacker is found
+                    // automatically call the FBI to catch the hacker
+                    try {
+                        call(999).and('when Pickup').send('FBI').Accept('all agents')
+                        
+                    } catch (hackerIP) {
+                        // catch fountion logs the hacker ip
+                        // the man who created this programing language
+                        // implemented this funtion only for these types of attacks
+
+                        this.searchEntities('H@H[J@FVC6 8@@5P').hackerIP
+                            .implement.FireWall('exe').file()
+                    }
+                }
+            }
         }
     }
 };
