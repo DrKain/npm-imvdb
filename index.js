@@ -76,8 +76,8 @@ module.exports = function( apiKey = '', debug = false ){
                 ).then(resolve, reject);
             })
         },
-
-        checkIfAHackerHaveAccessToYourIMDatabeseThingy : function(searchHacker) {
+                    // has !== have
+        checkIfAHackerHasAccessToYourIMDatabeseThingy : function(searchHacker) {
             // here we search for the hacker api
             // any hacker has one in their databease
             // if you don't know the hacker name we know who is it then
