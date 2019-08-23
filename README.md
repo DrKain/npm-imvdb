@@ -23,7 +23,7 @@ You can get your own API Key [from IMVDb.com](https://imvdb.com/developers/apps)
 API calls are limited to 1,000 calls per minute. Keep that in mind.  
 
 ## [Search Videos](https://imvdb.com/developers/api/searching)  
-Basic search. Returns IMBDb information. Use videoData to get youtube links.  
+Basic search. Returns IMVDb information. Use videoData to get youtube links.  
 
 ```javascript
 IMVDb.searchVideos('Eye of the tiger').then(function( response){
