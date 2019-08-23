@@ -5,7 +5,7 @@ IMVDb
 
 **What is this?**  
 ------------
-An NPM package to interact with the IMBDb.com API  
+An NPM package to interact with the IMVDb.com API  
   
 **Quick Start**  
   
